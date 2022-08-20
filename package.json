@@ -1,0 +1,21 @@
+{
+  "name": "service-cli",
+  "version": "1.0.0",
+  "description": "CLI para criar novo projeto, 'ex: NPM INIT'",
+  "main": "index.js",
+  "preferGlobal": true,
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "create-node-service": "./bin/create-node-service.js"
+  },
+  "author": "Jeyson Luiz Romualdo",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "inquirer": "^9.1.0",
+    "recursive-copy": "^2.0.14"
+  }
+}
